@@ -9,9 +9,9 @@ function Log() {
                 <Header />
                 <div className="inputBox">
                     <input className='' type="text" placeholder='Digite seu nome'/>
-                    <input className='' type="text" placeholder='Digite seu Email'/>
-                    <input className='' type="text" placeholder='Digite sua senha'/>
-                    <input className='' type="text" placeholder='Confirme sua senha'/>
+                    <input className='' type="email" placeholder='Digite seu Email'/>
+                    <input className='' type="password" placeholder='Digite sua senha'/>
+                    <input className='' type="password" placeholder='Confirme sua senha'/>
                     <p className='msg'></p>
                 </div>
                 <button className='text-xl font-medium w-2/4 btnC'>Cadastrar</button>
