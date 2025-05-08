@@ -1,5 +1,6 @@
 import './assets/ls.css';
 import Header from './Header';
+import {Link} from 'react-router-dom';
 
 function Log() {
     return (
@@ -14,7 +15,7 @@ function Log() {
                     <p className='msg'></p>
                 </div>
                 <button className='text-xl font-medium w-2/4 btnC'>Cadastrar</button>
-                <p className='font-medium linkToC'>Já tem cadastro? <a className='text-red-600' href="/log">Clique aqui</a></p>
+                <p className='font-medium linkToC'>Já tem cadastro? <Link className='text-red-600' to="/log">Clique aqui</Link></p>
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import './assets/ls.css';
 import Header from './Header.jsx';
+import { Link } from 'react-router-dom';
 
 function Log() {
     return (
@@ -12,7 +13,7 @@ function Log() {
                     <p className='msg'></p>
                 </div>
                 <button className='text-xl font-medium w-2/4 btnL'>Entrar</button>
-                <p className='font-medium linkToL'>Ainda não tem uma conta? <a className='text-red-600' href="/sign">Clique aqui</a></p>
+                <p className='font-medium linkToL'>Ainda não tem uma conta? <Link className='text-red-600' to="/sign">Clique aqui</Link></p>
             </div>
         </div>
     )
