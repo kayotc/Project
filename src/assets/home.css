@@ -1,31 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.main{
-    min-height: 100vh;
+
+.btns{
     display: flex;
-    padding: 10px 1em;
-    .content{
-        flex-direction: column;
-        display: flex;
-        margin: auto;
-        height: 95vh;
-        flex-grow: 1;
-        background-color: var(--background-content);
-        box-shadow: 2px 4px 8px rgba(0,0,0,.5);
-        gap: 3.3em;
-
-        .btns{
-            display: flex;
-            margin: 0 auto;
-            flex-wrap: wrap;
-            padding: 4px 8px;
-            width: 85%;
-        }
-    }
+    margin: 3em auto;
+    flex-wrap: wrap;
+    padding: 4px 8px;
+    width: 75%;
+    gap: 30px;
 }
 
 

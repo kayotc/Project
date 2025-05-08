@@ -21,8 +21,8 @@ function Home() {
             <div className='rounded-lg content'>
                 <Header/>
                 <div className="btns">
-                    <button className='text-xl font-medium log' onClick={log}>Logar</button>
-                    <button className='text-xl font-medium sign' onClick={sign}>Cadastrar</button>
+                    <button className='text-xl font-medium log m-auto' onClick={log}>Logar</button>
+                    <button className='text-xl font-medium sign m-auto' onClick={sign}>Cadastrar</button>
                 </div>
             </div>
         </div>
